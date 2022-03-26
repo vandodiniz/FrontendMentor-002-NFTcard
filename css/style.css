@@ -9,57 +9,64 @@
 body {
     background-color: hsl(217, 54%, 11%);
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    min-width: 100vh;
     font-family: 'Outfit', sans-serif;
     font-size: 18px;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 96vh;
+}
+
 .card {
     background-color: hsl(216, 50%, 16%);
-    height: 70vh;
-    width: 320px;
+    width: 340px;
     border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .card .card-header {
     height: 50%;
     display: flex;
     justify-content: center;
-    padding: 0 10px;
+    padding: 24px;
 }
 
 .card .card-body {
-    height: 35%;
-    padding: 0 20px;
+    padding: 0 24px;
 }
 
 .card .card-footer {
-    height: 15%;
     display: flex;
     align-items: center;
-    padding: 0 20px;
+    padding: 15px 24px;
+    gap: 10px;
 }
 
-.card .card-header img {
+.card .card-header img#nft {
     width: 100%;
-    border-radius: 1rem;
-    padding: 10px;
+    border-radius: 0.5rem;
 }
 
 .card .card-body h1 {
-    padding-top: 15px;
     color: white;
     font-size: 1.3em;
     font-weight: 600;
 }
 
+.card .card-body h1:hover {
+    cursor: pointer;
+    color: aqua;
+}
+
 .card .card-body p {
     color: hsl(215, 51%, 70%);
     font-size: 1em;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 .card .card-body .status {
@@ -87,11 +94,30 @@ body {
 }
 
 .card .card-footer img {
-    height: 50%;
+    width: 13%;
     border-radius: 50%;
     border: 1px solid white;
 }
 
+.card .card-footer span {
+    font-size: 0.85rem;
+    color: hsl(215, 51%, 70%);
+}
+
+strong {
+    color: white;
+}
+
+strong:hover {
+    cursor: pointer;
+    color: aqua;
+}
+
+.attribution {
+    background-color: white;
+    width: 100%;
+    padding: 2px 0;
+}
 
 
 
