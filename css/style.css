@@ -10,49 +10,89 @@ body {
     background-color: hsl(217, 54%, 11%);
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: 'Outfit', sans-serif;
     font-size: 18px;
 }
 
-main {
+.card {
     background-color: hsl(216, 50%, 16%);
-    height: 75vh;
-    width: 350px;
+    height: 70vh;
+    width: 320px;
     border-radius: 1rem;
 }
 
-main > img {
-    display: block;  
-    width: 87%;
-    height: 53%;
-    border-radius: 1rem;
-    margin: 20px auto;
+.card .card-header {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
 }
 
-main > h1 {
-    color: white;
-    font-size: 20px;
-    font-weight: 600;
+.card .card-body {
+    height: 35%;
     padding: 0 20px;
 }
 
-p {
-    color: hsl(215, 51%, 70%);
-    padding: 10px 20px;
-}
-
-.status {
+.card .card-footer {
+    height: 15%;
     display: flex;
-    padding: 10px 25px;
-    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
 }
 
-hr {
-    width: 100px;
-    background-color: hsl(215, 32%, 27%);
+.card .card-header img {
+    width: 100%;
+    border-radius: 1rem;
+    padding: 10px;
 }
+
+.card .card-body h1 {
+    padding-top: 15px;
+    color: white;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.card .card-body p {
+    color: hsl(215, 51%, 70%);
+    font-size: 1em;
+    margin-top: 25px;
+}
+
+.card .card-body .status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:0.85rem;
+    margin: 15px 0;
+}
+
+.card .card-body .status img {
+    padding: 0 5px;
+}
+
+#price {
+    color: aqua;
+}
+
+#days {
+    color: hsl(215, 51%, 70%);
+}
+
+.card .card-body hr {
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.card .card-footer img {
+    height: 50%;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+
 
 
 
