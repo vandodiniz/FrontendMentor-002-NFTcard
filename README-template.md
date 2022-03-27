@@ -1,6 +1,6 @@
 # Frontend Mentor - NFT preview card component
 
-Essa é a solução do desafio [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/hub/nft-preview-card-component-Hk65dYqfq) do site FrontEnd Mentor! 
+Essa é a solução do desafio [NFT preview card component](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U) do site FrontEnd Mentor! 
 
 ## Sumário
 
@@ -22,7 +22,7 @@ Essa é a solução do desafio [NFT preview card component challenge on Frontend
 ### Links
 
 - URL da Solução: [https://www.frontendmentor.io/solutions/nft-preview-card-component-solution-BJsCyI6zc](https://www.frontendmentor.io/solutions/nft-preview-card-component-solution-BJsCyI6zc)
-- URL do Site: [https://github.com/vandodiniz/FrontendMentor-002-NFTcard](https://github.com/vandodiniz/FrontendMentor-002-NFTcard)
+- URL do Site: [https://vandodiniz.github.io/FrontendMentor-002-NFTcard/](https://vandodiniz.github.io/FrontendMentor-002-NFTcard/)
 
 ### Autor
 
@@ -40,4 +40,4 @@ Essa é a solução do desafio [NFT preview card component challenge on Frontend
 ### Referências
 
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Este site me ajudou a centralizar meu conteúdo de forma mais eficiente usando o modelo Flexbox.
-- [mage Hover Text Overlay Effect with HTML & CSS - Web Design Tutorial](https://www.youtube.com/watch?v=exb2ab72Xhs&t=168s&ab_channel=dcode) - Este video me ajudou a ter uma noçao de como aplicar o overlay de imagens com o css.
+- [Image Hover Text Overlay Effect with HTML & CSS - Web Design Tutorial](https://www.youtube.com/watch?v=exb2ab72Xhs&ab_channel=dcode) - Este video me ajudou a ter uma noçao de como aplicar o overlay de imagens com o css.
